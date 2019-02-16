@@ -22,3 +22,11 @@ while len(str(a)) >= 3:
         a,b = a-1,a-1
 
 print largest
+
+# Most 'python' solution
+#
+# def is_palindrome(number):
+#     if str(number) == str(number)[::-1]:
+#         return True
+# palindromes = [i * j for i in range(100, 1000) for j in range(100, 1000) if is_palindrome(i * j)]
+# print(max(palindromes))
